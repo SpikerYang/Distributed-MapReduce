@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7baf6bd-49bc-4776-8a20-f45dff705804" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/mrmaster.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/mrmaster.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test-mr.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test-mr.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mr/master.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/mr/master.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mr/rpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/mr/rpc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mr/worker.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/mr/worker.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15.2/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mZeF3k5hKNOZ3I54eQ9d3gtHy2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/mr" />
+    <property name="settings.editor.selected.configurable" value="go" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mr" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mr" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.master.go rpc.go worker.go mrRPC_test.go">
+    <configuration name="go build master.go mrMaster_test.go rpc.go worker.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/mr/master.go|$PROJECT_DIR$/src/mr/mrMaster_test.go|$PROJECT_DIR$/src/mr/rpc.go|$PROJECT_DIR$/src/mr/worker.go" />
+      <directory value="$PROJECT_DIR$" />
+      <option name="run" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build master.go mrMaster_test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/mr/master.go|$PROJECT_DIR$/src/mr/mrMaster_test.go" />
+      <directory value="$PROJECT_DIR$" />
+      <option name="run" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestDoMapTask in mrWorker_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$/src/mr" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/mr/mrWorker_test.go" />
+      <pattern value="^\QTestDoMapTask\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMakeMaster in mrMaster_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$/src/mr" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/mr/mrMaster_test.go" />
+      <pattern value="^\QTestMakeMaster\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSplitInputFiles in mrMaster_test.go (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$/src/mr" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/mr/mrMaster_test.go" />
+      <pattern value="^\QTestSplitInputFiles\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="master.go rpc.go worker.go mrRPC_test.go" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$/src/mr" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/mr/master.go|$PROJECT_DIR$/src/mr/rpc.go|$PROJECT_DIR$/src/mr/worker.go|$PROJECT_DIR$/src/mr/mrRPC_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mrMaster_test.go master.go rpc.go worker.go" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$/src/mr" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="mr" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/mr/mrMaster_test.go|$PROJECT_DIR$/src/mr/master.go|$PROJECT_DIR$/src/mr/rpc.go|$PROJECT_DIR$/src/mr/worker.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mrWorker_test.go worker.go rpc.go master.go" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$/src/mr" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/mr/mrWorker_test.go|$PROJECT_DIR$/src/mr/worker.go|$PROJECT_DIR$/src/mr/rpc.go|$PROJECT_DIR$/src/mr/master.go" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build master.go mrMaster_test.go" />
+      <item itemvalue="Go Build.go build master.go mrMaster_test.go rpc.go worker.go" />
+      <item itemvalue="Go Test.mrWorker_test.go worker.go rpc.go master.go" />
+      <item itemvalue="Go Test.master.go rpc.go worker.go mrRPC_test.go" />
+      <item itemvalue="Go Test.mrMaster_test.go master.go rpc.go worker.go" />
+      <item itemvalue="Go Test.TestSplitInputFiles in mrMaster_test.go (2)" />
+      <item itemvalue="Go Test.TestMakeMaster in mrMaster_test.go" />
+      <item itemvalue="Go Test.TestDoMapTask in mrWorker_test.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestDoMapTask in mrWorker_test.go" />
+        <item itemvalue="Go Test.TestMakeMaster in mrMaster_test.go" />
+        <item itemvalue="Go Test.TestSplitInputFiles in mrMaster_test.go (2)" />
+        <item itemvalue="Go Build.go build master.go mrMaster_test.go rpc.go worker.go" />
+        <item itemvalue="Go Build.go build master.go mrMaster_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="516" y="23" width="1071" height="1004" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610835612945">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state x="516" y="23" width="1071" height="1004" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610835612945" />
+    <state x="449" y="40" width="1071" height="988" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610432563284" />
+    <state x="854" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610839836732">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state x="854" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610839836732" />
+    <state x="854" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610667011001" />
+    <state width="1190" height="268" key="GridCell.Tab.0.bottom" timestamp="1610836242644">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state width="1190" height="268" key="GridCell.Tab.0.bottom/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610836242644" />
+    <state width="1004" height="268" key="GridCell.Tab.0.bottom/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610697219408" />
+    <state width="1190" height="268" key="GridCell.Tab.0.center" timestamp="1610836242644">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state width="1190" height="268" key="GridCell.Tab.0.center/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610836242644" />
+    <state width="1004" height="268" key="GridCell.Tab.0.center/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610697219404" />
+    <state width="1190" height="268" key="GridCell.Tab.0.left" timestamp="1610836242643">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state width="1190" height="268" key="GridCell.Tab.0.left/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610836242643" />
+    <state width="1004" height="268" key="GridCell.Tab.0.left/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610697219403" />
+    <state width="1190" height="268" key="GridCell.Tab.0.right" timestamp="1610836242644">
+      <screen x="0" y="23" width="1920" height="1004" />
+    </state>
+    <state width="1190" height="268" key="GridCell.Tab.0.right/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610836242644" />
+    <state width="1004" height="268" key="GridCell.Tab.0.right/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610697219405" />
+    <state x="494" y="145" key="SettingsEditor" timestamp="1610403134265">
+      <screen x="0" y="23" width="1920" height="1005" />
+    </state>
+    <state x="494" y="145" key="SettingsEditor/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610403134265" />
+  </component>
+</project>
