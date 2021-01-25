@@ -44,9 +44,6 @@ func (m *Master) getTask() Task {
 		case task:= <-m.taskChan:
 			go m.traceTask(task)
 			return task
-		case task:= <-m.retryTaskChan:
-			go m.traceTask(task)
-			return task
 		case <-time.After(GetTaskTimeOut):
 
 			return m.getTask()
@@ -217,10 +214,7 @@ func (m *Master) writeMapFile(content []string, f *os.File) {
 //
 func MakeMaster(files []string, nReduce int) *Master {
 	m := Master{}
-
-	// Your code here.
 	m.initiation(files, nReduce)
-
 	m.server()
 	return &m
 }
