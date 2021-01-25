@@ -34,7 +34,7 @@ type Task struct {
 	Id    int
 }
 ```
-Task的定义很简单，phase表示Task是属于Map任务还是Reduce任务\
+Task的定义很简单，phase表示Task是属于Map任务还是Reduce任务
 
 ### Master
 ```
@@ -65,7 +65,7 @@ func MakeMaster(files []string, nReduce int) *Master {
 	return &m
 }
 ```
-MakeMaster是启动Master的入口，实例化一个Master对象并返回。其中主要做了两件事，一个是整个MapReduce的初始化，一个是启动rpc server\
+MakeMaster是启动Master的入口，实例化一个Master对象并返回。其中主要做了两件事，一个是整个MapReduce的初始化，一个是启动rpc server
 ```
 func (m *Master) server() {
 	rpc.Register(m)
