@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e7baf6bd-49bc-4776-8a20-f45dff705804" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raft/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/raft/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raft/raft.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/raft/raft.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/raft/test_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/raft/test_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,34 +55,26 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/mr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="settings.editor.selected.configurable" value="go" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/mr" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/mr" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/mr" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Test.master.go rpc.go worker.go mrRPC_test.go">
+  <component name="RunManager" selected="Go Test.TestReElection2A in test_test.go">
     <configuration name="go build master.go mrMaster_test.go rpc.go worker.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="6.824" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/mr/master.go|$PROJECT_DIR$/src/mr/mrMaster_test.go|$PROJECT_DIR$/src/mr/rpc.go|$PROJECT_DIR$/src/mr/worker.go" />
-      <directory value="$PROJECT_DIR$" />
-      <option name="run" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build master.go mrMaster_test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="6.824" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/mr/master.go|$PROJECT_DIR$/src/mr/mrMaster_test.go" />
       <directory value="$PROJECT_DIR$" />
       <option name="run" value="false" />
       <method v="2" />
@@ -102,6 +97,16 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/src/mr/mrMaster_test.go" />
       <pattern value="^\QTestMakeMaster\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestReElection2A in test_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="6.824" />
+      <working_directory value="$PROJECT_DIR$/src/raft" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/raft/test_test.go" />
+      <pattern value="^\QTestReElection2A\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSplitInputFiles in mrMaster_test.go (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -146,7 +151,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build master.go mrMaster_test.go" />
       <item itemvalue="Go Build.go build master.go mrMaster_test.go rpc.go worker.go" />
       <item itemvalue="Go Test.mrWorker_test.go worker.go rpc.go master.go" />
       <item itemvalue="Go Test.master.go rpc.go worker.go mrRPC_test.go" />
@@ -154,14 +158,15 @@
       <item itemvalue="Go Test.TestSplitInputFiles in mrMaster_test.go (2)" />
       <item itemvalue="Go Test.TestMakeMaster in mrMaster_test.go" />
       <item itemvalue="Go Test.TestDoMapTask in mrWorker_test.go" />
+      <item itemvalue="Go Test.TestReElection2A in test_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestReElection2A in test_test.go" />
         <item itemvalue="Go Test.TestDoMapTask in mrWorker_test.go" />
         <item itemvalue="Go Test.TestMakeMaster in mrMaster_test.go" />
         <item itemvalue="Go Test.TestSplitInputFiles in mrMaster_test.go (2)" />
         <item itemvalue="Go Build.go build master.go mrMaster_test.go rpc.go worker.go" />
-        <item itemvalue="Go Build.go build master.go mrMaster_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -192,33 +197,45 @@
     </state>
     <state x="854" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610839836732" />
     <state x="854" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610667011001" />
-    <state width="1190" height="268" key="GridCell.Tab.0.bottom" timestamp="1611438072958">
-      <screen x="0" y="23" width="1920" height="1007" />
+    <state width="888" height="203" key="GridCell.Tab.0.bottom" timestamp="1613974361723">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state width="1190" height="268" key="GridCell.Tab.0.bottom/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610836242644" />
     <state width="1004" height="268" key="GridCell.Tab.0.bottom/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610697219408" />
     <state width="1190" height="268" key="GridCell.Tab.0.bottom/-1440.-91.1440.877/0.23.1920.1007@0.23.1920.1007" timestamp="1611438072958" />
-    <state width="1190" height="268" key="GridCell.Tab.0.center" timestamp="1611438072946">
-      <screen x="0" y="23" width="1920" height="1007" />
+    <state width="888" height="203" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1613974361723" />
+    <state width="888" height="203" key="GridCell.Tab.0.center" timestamp="1613974361723">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state width="1190" height="268" key="GridCell.Tab.0.center/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610836242644" />
     <state width="1004" height="268" key="GridCell.Tab.0.center/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610697219404" />
     <state width="1190" height="268" key="GridCell.Tab.0.center/-1440.-91.1440.877/0.23.1920.1007@0.23.1920.1007" timestamp="1611438072946" />
-    <state width="1190" height="268" key="GridCell.Tab.0.left" timestamp="1611438072924">
-      <screen x="0" y="23" width="1920" height="1007" />
+    <state width="888" height="203" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1613974361723" />
+    <state width="888" height="203" key="GridCell.Tab.0.left" timestamp="1613974361722">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state width="1190" height="268" key="GridCell.Tab.0.left/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610836242643" />
     <state width="1004" height="268" key="GridCell.Tab.0.left/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610697219403" />
     <state width="1190" height="268" key="GridCell.Tab.0.left/-1440.-91.1440.877/0.23.1920.1007@0.23.1920.1007" timestamp="1611438072924" />
-    <state width="1190" height="268" key="GridCell.Tab.0.right" timestamp="1611438072949">
-      <screen x="0" y="23" width="1920" height="1007" />
+    <state width="888" height="203" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1613974361722" />
+    <state width="888" height="203" key="GridCell.Tab.0.right" timestamp="1613974361723">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state width="1190" height="268" key="GridCell.Tab.0.right/-1440.-91.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1610836242644" />
     <state width="1004" height="268" key="GridCell.Tab.0.right/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610697219405" />
     <state width="1190" height="268" key="GridCell.Tab.0.right/-1440.-91.1440.877/0.23.1920.1007@0.23.1920.1007" timestamp="1611438072949" />
+    <state width="888" height="203" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1613974361723" />
     <state x="494" y="145" key="SettingsEditor" timestamp="1610403134265">
       <screen x="0" y="23" width="1920" height="1005" />
     </state>
     <state x="494" y="145" key="SettingsEditor/-1440.-91.1440.877/0.23.1920.1005@0.23.1920.1005" timestamp="1610403134265" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1613961889888">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.833@0.23.1440.833" timestamp="1613961889888" />
+    <state x="448" y="180" key="search.everywhere.popup" timestamp="1613961887510">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="448" y="180" key="search.everywhere.popup/0.23.1440.833@0.23.1440.833" timestamp="1613961887510" />
   </component>
 </project>
